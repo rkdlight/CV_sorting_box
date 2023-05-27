@@ -17,7 +17,7 @@
 ![image](https://github.com/rkdlight/CV_sorting_box/assets/30794595/d7568fc9-0b7c-42f6-86f6-d28f1139df12)
 
 ### 7. В папке matlab запускаем файл TutorialBasic.m
-### 7. Запускаем симуляцию в Unity
+### 8. Запускаем симуляцию в Unity
 
 # Принцип работы
 В среде Unity находится фишай камера. Когда коробки подъезжают к первому датчику поочередно включаются и включаются горизонтальный и вертикальный лазеры, одновременно с этим камера фотографирует коробку с лазерами. В это время matlab ожидает появления фото в папке, когда они появляются программа производит расчеты размеров коробок на основе статьи I. Kholodilin, Y. Li and Q. Wang, "Omnidirectional Vision System With Laser Illumination in a Flexible Configuration and Its Calibration by One Single Snapshot," in IEEE Transactions on Instrumentation and Measurement, vol. 69, no. 11, pp. 9105-9118, Nov. 2020, doi: 10.1109/TIM.2020.2998598. Рассчитанные значения размеров сохраняются в файл result.json, который уже ожидает unity.
